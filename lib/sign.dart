@@ -159,7 +159,13 @@ class _NewAppSignupState extends State<NewAppSignup> {
                     tnc=value!;
 
                   });
-                }, child: Text("trems and conditions"))
+                }, child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text("trems and conditions"),
+                    Text("you must agree our trems and conditons acroding to")
+                  ],
+                ),)
               ],
             ),
           ],
